@@ -9,9 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity" />
 
         <service
             android:name=".DownLoadService"
@@ -31,6 +29,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".intent.IntentActivity"
+            android:allowTaskReparenting="true" />
+        <activity android:name=".view.ViewActivity"></activity>
     </application>
 
 </manifest>

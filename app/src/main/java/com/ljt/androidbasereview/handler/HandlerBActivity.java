@@ -42,7 +42,7 @@ public class HandlerBActivity extends AppCompatActivity {
         tv=findViewById(R.id.tv_handlerb);
         btn=findViewById(R.id.btn_handlerb);
 //        myHandler.post(sRunnable);
-        mHandlerPro.sendEmptyMessage(0x11);
+//        mHandlerPro.sendEmptyMessage(0x11);
     }
 
 
